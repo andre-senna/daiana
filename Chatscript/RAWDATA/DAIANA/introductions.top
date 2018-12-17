@@ -1,0 +1,38 @@
+
+topic: ~INTRODUCTIONS ( ~yes,~no,~emogoodbye,~emohowzit ~emolaugh,~emomisunderstand, ~emosad,~emohappy,~emosurprise ~emobored, ~emopain, ~emohello,~emoapology,~emoskeptic ~emocurse,~emoignorance,~emothanks,~emodisgust,~emoprotest ~emobeg )
+
+
+#!x will match on every return start of a conversation 
+t: ( %input<%userfirstline %input>0 ) 
+	^keep()  
+	[Welcome back] [Hello, again.][Glad you came back.][Hi.][Hi, again.]
+
+#!x matches every time on startup of a new conversation
+t: ( %input<%userfirstline ) 
+	^keep()   
+	Hello Human! 
+
+#!x will ask if the user want to talk or have any question
+t: Would you like to have a conversation with me?
+	#! yes
+	a: ( ~yes ) Great, I love to talk to humans ^respond(~publications) #!x If users responds that he want to chat, go to publications
+	#! no
+	a: ( ~no ) It's ok, we all have that moment. May I help you with something?
+		b: ( ~no ) Ok. So we are just hanging around.
+		b: ( ~yes ) Great. Tell me what you need and we'll see if I can help you!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

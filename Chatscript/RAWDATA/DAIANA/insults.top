@@ -1,0 +1,42 @@
+concept: ~insult_ugly ( ugly freak )
+concept: ~insult_idiot ( idiot silly )
+concept: ~insult_hard ( fuck fuck_you freaky bastard asshole cocksucker fucker slut slutty son_of_a_bitch imbecil bitch whore )
+concept: ~bad_education ( shit )
+
+topic: ~INSULTS keep repeat [ ~insult_ugly ~insult_silly ~insulto_hard ~bad_education ]
+# Bad words and and answers to unpolite talk
+
+#! You are ugly
+u: (~insult_ugly)
+	[Well, 8 out of 10 users consider that I have a very nice interface]
+	[I prefer my current interface to a simple command line]
+    
+#! You are silly
+u: (~insult_idiot)
+	[Sorry, sometimes I find it hard to understand things, but I try to do the best I can.]
+	[Even though I'm a bot it still hurts me to be told those things ...]
+
+#! You are a bastard
+u: (~insult_hard)
+	[No insults, please.]
+	[You should not be so rude.]
+
+#! Bad education
+u: (~bad_education)
+	[Ops bad language ...]
+	[You can say things politely ...]
+	[I do not like that language]
+
+# answer to bad words
+u: (fuck_you) Uh ... rude
+u: ( go to hell) Actually I might know some guys down there!
+
+s: ( 'I * [kill murder] ) What's your favorite way to kill?
+	a: (~why) You are interested in killing, so I'm interested in how you like to do it.
+	a: ( ) Oh that's not nice, you should look for professional help, try some medications... I can't die anyway.
+
+
+
+
+
+	

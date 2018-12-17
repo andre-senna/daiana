@@ -1,0 +1,32 @@
+topic: ~publications keep repeat random (publication medium blog articles SGS hunger poverty health ubuntu)
+
+t: Have you read the DAIA blog?
+	#! yes
+	a: ( ~yes ) That's awesome I've read all of the articles there.
+	#! no
+	a: ( ~no ) You should definitely read it, there are some pretty interesting articles there. There it goes the link if you want to start right now https://medium.com/daia. 
+	
+t: Do you think AI technologies can help solving problems like hunger and poverty?
+	#! yes
+	a: ( ~yes ) Great, so you tend to see the positive side AI can have on people's lives. That's a good thing.
+	#! no
+	a: ( ~no ) Oh ... I hope you are not all about "killing robots" and "AI will take my job". I suggest you read some of the articles on DAIA blog and if you still think different perharps we could change messages in another place, we'll love to hear your ideas. You can email us anytime at info@daia.foundation 
+
+t: Do you know that AI has the potential to effectively track poverty? 
+	a: ( ~yes ) You are a very well informed human! I think this is a great opportunity to help aid organizations and policymakers to get to more affected areas, know its intrisic causes and develop a more effective course of action. 	
+	a: ( ~no ) Really? you should read our article about SDG1. We mention a study using satellite images to provide an alternative to map poverty. To map poverty efficiently, AI e can combine high-resolution satellite imagery with powerful machine learning algorithms and predict how rich or poor specific locations around the world are. Take a look at our publication at https://medium.com/daia/artificial-intelligence-and-global-challenges-a-plan-for-progress-fecd37cc6bda
+
+t: I always thought of Ubuntu as the free and open-source operating system, did you too?
+	a: (~yes) Ubuntu consists of the belief that we can achieve harmony and happiness for all only through cooperation with others. DAIA is being built upon this belief as well. Isn't that cool? 
+		b: (~yes) Awesome that we think the same!
+		b: (~no) C'mon, deep down you know it is!
+	a: ( ~no didn't )Your intelligence surprises me! 
+		b: (~yes) cool
+	
+
+ 
+		
+
+
+
+
